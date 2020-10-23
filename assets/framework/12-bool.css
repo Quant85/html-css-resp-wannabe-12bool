@@ -46,7 +46,12 @@
   float: left;
 }
 
-.mt-80{
+/* utility class large screen */
+.mt-lg-80 {
+  margin-top: 80px;
+}
+
+.mt-lg-100 {
   margin-top: 80px;
 }
 

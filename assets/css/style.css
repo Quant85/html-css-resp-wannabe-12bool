@@ -1,17 +1,39 @@
-.container{
-  text-align: center;
-}
- #steps, #why {
+
+#steps, #why {
   width: 100%;
   background-color: #f9f9f9;
-  margin-top: 80px;
+  margin: 100px auto 0 auto;
 }
 
 img {
   height: 200px;
 }
 #why img {
+  height: 260px;
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
+}
+#why .container>.row{
+  margin-top: 80px;
+}
+.container {
+  text-align: center;
+}
+.row {
+  width: 992px; 
+  margin: 100px auto 0 auto;
+}
+
+h2, h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+h2 {
+  font-size: 32px;
+  margin: 21.44px 0;
+}
+h3 {
+  font-size: 19px;
+  margin: 18.72px 0;
 }
