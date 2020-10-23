@@ -1,0 +1,17 @@
+.container{
+  text-align: center;
+}
+ #steps, #why {
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 80px;
+}
+
+img {
+  height: 200px;
+}
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
