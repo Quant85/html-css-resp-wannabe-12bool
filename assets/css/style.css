@@ -21,7 +21,7 @@ img {
   text-align: center;
 }
 .row {
-  width: 992px; 
+  max-width: 992px; 
   margin: 100px auto 0 auto;
 }
 
@@ -36,4 +36,47 @@ h2 {
 h3 {
   font-size: 19px;
   margin: 18.72px 0;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .row{
+    margin-top: 0;
+  }
+  img{
+    height: 160px;
+  }
+
+  p{
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  #why .row {
+    min-height: 470px;
+    display: inline-block;
+    width: 30%;
+  }
+  #why img {
+    max-height: 140px;
+  }
+  #why h3 {
+    min-height: 44px ;
+    font-size: 18px;
+    
+  }
+  #why p{
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: distribute;
+  }
+
+  hr{
+    visibility: hidden;
+  }
+
 }
